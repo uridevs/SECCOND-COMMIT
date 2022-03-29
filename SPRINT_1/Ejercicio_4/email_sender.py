@@ -1,6 +1,6 @@
 from sparkpost import SparkPost
 
-sp = SparkPost('809b8f60d5c49139222e0b9ff8b7bacac72363e1')
+sp = SparkPost('myid')
 
 try:
 	sp.transmissions.send(
