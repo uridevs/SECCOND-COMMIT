@@ -38,7 +38,7 @@ def register(mail, pwd):
 		print(f"{mail} ya está registrado, introduzca otro correo o inicie sesion")
 		return False
 
-#función que gestiona el Login según las indicaciones recibidas
+'''función que gestiona el Login según las indicaciones recibidas'''
 def login(mail,pwd):
 	if check_if_user(mail):
 		for user in users:
@@ -52,13 +52,12 @@ def login(mail,pwd):
 		return -1
 
 
-
+#algunos casos de prueba
 register("manolito@gmail.com", "Manolito123")
 register("manol2to12@gmail.com", "jaja123")
 register("minanolito33@yopmail.com", "asdf123")
 register("manolito@gmail.com", "Manolito123")
 register("pachon12@gmail.com", "jojo123")
-
 
 
 print(login("manolito@gmail.com", "Manolito123"))

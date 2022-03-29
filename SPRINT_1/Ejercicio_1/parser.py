@@ -5,7 +5,7 @@ import sys
 emails = []
 users = []
 errors = []
-file = "random2.csv"
+file = "random2.csv" # Se incluye un archivo con datos aleatorios para testear el programa
 
 def parser_func(f):
 	with open(file, 'r') as infile:
