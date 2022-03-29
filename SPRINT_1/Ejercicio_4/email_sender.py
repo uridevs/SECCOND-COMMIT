@@ -5,7 +5,7 @@ sp = SparkPost('809b8f60d5c49139222e0b9ff8b7bacac72363e1')
 try:
 	sp.transmissions.send(
 	    recipients=['javipkr@gmail.com'],
-	    html='<p>Bienvenido al campus! Tu registro se ha completado satisfactoriamente</p>',
+	    html='<p>Bienvenido al campus! Tu registro se ha completado satisfactoriamente!</p>',
 	    from_email='test@urideveloper.eu',
 	    subject='Hello from python-sparkpost'
 )
